@@ -1,0 +1,306 @@
+.img1{
+  float: left;
+  width:150px;
+  height:auto;
+}
+.img2{
+  
+  padding-top:150px;
+  padding-left: 40%;
+  width: 130px;
+  height: auto;
+  
+}
+.img3{
+  width: 250px;
+  height: auto;
+}
+.span-1{
+  color: orange;
+}
+.div12{
+  display: inline-block;
+  
+}
+.kk2{
+  display: inline-block;
+}
+.ts2{
+  display: inline-block;
+}
+.ky2{
+  display: inline-block;
+}
+.kk2{
+  display: inline-block;
+}
+.kk2{
+  display: inline-block;
+}
+.counseling{
+ color: white;
+ display: block;
+ background-color: orange;
+ border-radius: 30px;
+ text-align: center;
+ width: 250px;
+ text-decoration: none;
+ height: 60px;
+ }
+.p27{
+  color: gray;
+  width: 450px;
+  display: block;
+  font-size: 10px;
+  
+}
+.a-3{
+  float:right;
+}
+.header-1{
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+  background-size: cover;
+}
+.header-2{
+  background-color: orange;
+  width: 100%;
+  height:250px;
+}
+.article-1{
+  float: left;
+  padding-left: 100px;
+}
+.img4{
+  padding-left: 10%;
+  padding-top: 5%;
+  width: 80%;
+  height: 200px;
+}
+.h2{
+  font-weight: 900;
+  color: white;
+  padding-left:10%;
+  font-size: 35px;
+}
+.p2{
+  color: white;
+  padding-left: 10%;
+  font-size: 15px;
+}
+ .frow2{
+  float: right;
+}
+
+.div1{
+  text-align: center;
+}
+.p3{
+  font-size: 30px;
+}
+.p4{
+  font-size: 15px;
+}
+.frow2{
+  background-color: white;
+  display: inline-block;
+  border-radius: 30px;
+  width: 20%;
+  height: 60px;
+  text-decoration: none;
+  text-align: center;
+  color: orange;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+.a-5{
+  font-family: sans-serif;
+  font-size: 24px;
+}
+.img5{
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+  width: 30px;
+  height: auto;
+}
+.h6{
+  display: inline-block;
+}
+.li-1{
+  text-align: center;
+}
+.li-2{
+  text-align: left;
+}
+
+.kk{
+  float: left;
+}
+.img6{
+  display: inline-block;
+  height: 60px;
+  width: auto;
+}
+.ts{
+  float:  none;
+}
+.img7{
+  height: 60px;
+  width: auto;
+}.ky{
+  float: right;
+}
+.img8{
+  height: 60px;
+  width: auto;
+}
+.tr{
+  float:  left;
+}
+.img9{
+  height: 60px;
+  width: auto;
+}
+.kc{
+  float:  none;
+}
+.img10{
+  height: 60px;
+  width: auto;
+}.sk{
+  float: right;
+}
+.img11{
+  height: 60px;
+  width: auto;
+}
+.ms{
+  float:  left;
+}
+.img12{
+  height: 60px;
+  width: auto;
+}
+.st{
+  float: none;
+}
+.img13{
+  height: 60px;
+  width: auto;
+}.sm{
+  float: right;
+}
+.img14{
+  height: 60px;
+  width: auto;
+}
+.ys{
+  float: left;
+}
+.img15{
+  height: 60px;
+  width: auto;
+}
+.kr{
+  float:  none;
+}
+.img16{
+  height: 60px;
+  width: auto;
+}
+.ay{
+  float: right;
+}
+.img17{
+  height: 60px;
+  width: auto;
+}
+.clear {
+      clear: both;
+}
+.ul-1{
+  background-color: #fcfaf5;
+  text-align: center;
+}
+
+
+.ul-2{
+  background-color:  #fcfaf5;
+  position: absolute: 20px 10px 20px 10px;
+}
+.a-3 a{
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.flow3{
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.course3{
+  
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.interview3{
+  
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.faq3{
+  
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.recruit3{
+  
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.document3{
+  
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.counseling3{
+  text-align: center;
+  padding: 10px 0;
+  width: 170px;
+  height: 100%;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: orange;
+}
+
+.p5{
+  color: orange;
+  font-size:  40px;
+}
+.h3{
+  font-size: 40px;
+}
+.span{
+  color: orange;
+  font-size: 30px;
+}
+.div2 {
+  display: inline-block;
+}
+.name1{
+  color: orange;
+  font-size: 40px;
+}
+.name{
+  text-align: center;
+}
+.name2{
+  font-size: 20px;
+  text-align: center;
+}
