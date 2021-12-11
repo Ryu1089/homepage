@@ -3,6 +3,9 @@
   width:150px;
   height:auto;
 }
+.img1:hover{
+  opacity: 0.5;
+}
 .img2{
   
   padding-top:150px;
@@ -47,6 +50,9 @@
  text-decoration: none;
  height: 60px;
  }
+.counseling:hover{
+  opacity: 0.5;
+}
 .p27{
   color: gray;
   width: 450px;
@@ -278,7 +284,9 @@
   text-decoration: none;
   background-color: orange;
 }
-
+.counseling3:hover{
+  opacity: 0.5;
+}
 .p5{
   color: orange;
   font-size:  40px;
