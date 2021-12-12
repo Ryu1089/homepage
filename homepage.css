@@ -312,3 +312,19 @@
   font-size: 20px;
   text-align: center;
 }
+@media screen and (max-width:767px){
+.header-1{
+ background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+}
+
+@media screen and (max-width: 767px){
+.div12 {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
