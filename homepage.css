@@ -1,55 +1,116 @@
-.img1{
-  float: left;
-  width:150px;
-  height:auto;
+.body-1{
+
 }
+.top{
+  width: 100%;
+position: absolute;
+padding-top: 0px;
+padding-bottom: 20px;
+}
+
+.a-1{
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 28px;
+}
+.topview{
+
+ 
+}
+.img1{
+    display: block;
+    height: 20px;
+    width: auto;
+}
+
+
+
 .img1:hover{
   opacity: 0.5;
 }
-.img2{
+
+.a-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px 0 36px;
+    max-width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 1080px){
+.a-3{
+  display: none;
+}
+}
+
+.a{
+      color: #333333;
+    text-decoration: none;
+}
+
+
+
+.a-2{
+     align-items: center;
+    display: flex;
+    justify-content: space-between;
   
-  padding-top:150px;
-  padding-left: 40%;
-  width: 130px;
-  height: auto;
+}
+
+.a-2top{
+ margin-right: 45px;
+ list-style: none;
+ 
+}
+
+
+.top_text{
+  text-align: center;
+  display:block;
+  color: #333333;
+  text-decoration: none;
+}
+
+
+  
+
+
+
+.top_text>span:last-child{
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
   
 }
-.img3{
-  width: 250px;
-  height: auto;
+
+.top_text>span{
+  display: block;
+  text-align: center;
 }
-.span-1{
-  color: orange;
-}
-.div12{
-  display: inline-block;
-  
-}
-.kk2{
-  display: inline-block;
-}
-.ts2{
-  display: inline-block;
-}
-.ky2{
-  display: inline-block;
-}
-.kk2{
-  display: inline-block;
-}
-.kk2{
-  display: inline-block;
-}
+
+
+ 
 .counseling{
- color: white;
- display: block;
- background-color: orange;
- border-radius: 30px;
- text-align: center;
- width: 250px;
- text-decoration: none;
- height: 60px;
- }
+align-items: center;
+    background-color: orange;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 170px;
+    font-size: 12px;
+    height: 40px;
+  
+ 
+ 
+}
 .counseling:hover{
   opacity: 0.5;
 }
@@ -60,258 +121,15 @@
   font-size: 10px;
   
 }
-.a-3{
-  float:right;
-}
-.header-1{
-  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
-  background-size: cover;
-}
-.header-2{
-  background-color: orange;
-  width: 100%;
-  height:250px;
-}
-.article-1{
-  float: left;
-  padding-left: 100px;
-}
-.img4{
-  padding-left: 10%;
-  padding-top: 5%;
-  width: 80%;
-  height: 200px;
-}
-.h2{
-  font-weight: 900;
-  color: white;
-  padding-left:10%;
-  font-size: 35px;
-}
-.p2{
-  color: white;
-  padding-left: 10%;
-  font-size: 15px;
-}
- .frow2{
-  float: right;
-}
-
-.div1{
-  text-align: center;
-}
-.p3{
-  font-size: 30px;
-}
-.p4{
-  font-size: 15px;
-}
-.frow2{
-  background-color: white;
-  display: inline-block;
-  border-radius: 30px;
-  width: 20%;
-  height: 60px;
-  text-decoration: none;
-  text-align: center;
-  color: orange;
-  margin-right: 50px;
-  margin-top: 100px;
-}
-.a-5{
-  font-family: sans-serif;
-  font-size: 24px;
-}
-.img5{
-  display: inline-block;
-  position: relative;
-  margin: 0px;
-  width: 30px;
-  height: auto;
-}
-.h6{
-  display: inline-block;
-}
-.li-1{
-  text-align: center;
-}
-.li-2{
-  text-align: left;
-}
-
-.kk{
-  float: left;
-}
-.img6{
-  display: inline-block;
-  height: 60px;
-  width: auto;
-}
-.ts{
-  float:  none;
-}
-.img7{
-  height: 60px;
-  width: auto;
-}.ky{
-  float: right;
-}
-.img8{
-  height: 60px;
-  width: auto;
-}
-.tr{
-  float:  left;
-}
-.img9{
-  height: 60px;
-  width: auto;
-}
-.kc{
-  float:  none;
-}
-.img10{
-  height: 60px;
-  width: auto;
-}.sk{
-  float: right;
-}
-.img11{
-  height: 60px;
-  width: auto;
-}
-.ms{
-  float:  left;
-}
-.img12{
-  height: 60px;
-  width: auto;
-}
-.st{
-  float: none;
-}
-.img13{
-  height: 60px;
-  width: auto;
-}.sm{
-  float: right;
-}
-.img14{
-  height: 60px;
-  width: auto;
-}
-.ys{
-  float: left;
-}
-.img15{
-  height: 60px;
-  width: auto;
-}
-.kr{
-  float:  none;
-}
-.img16{
-  height: 60px;
-  width: auto;
-}
-.ay{
-  float: right;
-}
-.img17{
-  height: 60px;
-  width: auto;
-}
-.clear {
-      clear: both;
-}
-.ul-1{
-  background-color: #fcfaf5;
-  text-align: center;
-}
 
 
-.ul-2{
-  background-color:  #fcfaf5;
-  position: absolute: 20px 10px 20px 10px;
-}
-.a-3 a{
-  display: inline-block;
-  margin-top: 30px;
-}
 
-.flow3{
-  font-family: sans-serif;
-  color: black;
-  text-decoration: none;
-}
-.course3{
-  
-  font-family: sans-serif;
-  color: black;
-  text-decoration: none;
-}
-.interview3{
-  
-  font-family: sans-serif;
-  color: black;
-  text-decoration: none;
-}
-.faq3{
-  
-  font-family: sans-serif;
-  color: black;
-  text-decoration: none;
-}
-.recruit3{
-  
-  font-family: sans-serif;
-  color: black;
-  text-decoration: none;
-}
-.document3{
-  
-  font-family: sans-serif;
-  color: black;
-  text-decoration: none;
-}
-.counseling3{
-  text-align: center;
-  padding: 10px 0;
-  width: 170px;
-  height: 100%;
-  color: white;
-  border-radius: 30px;
-  text-decoration: none;
-  background-color: orange;
-}
+
+
 .counseling3:hover{
   opacity: 0.5;
 }
-.p5{
-  color: orange;
-  font-size:  40px;
-}
-.h3{
-  font-size: 40px;
-}
-.span{
-  color: orange;
-  font-size: 30px;
-}
-.div2 {
-  display: inline-block;
-}
-.name1{
-  color: orange;
-  font-size: 40px;
-}
-.name{
-  text-align: center;
-}
-.name2{
-  font-size: 20px;
-  text-align: center;
-}
+
 @media screen and (max-width:767px){
 .header-1{
  background-position: right top;
@@ -328,3 +146,33 @@
     padding-right: 20px;
 }
 }
+
+@media screen and (max-width:767px){
+  .div12{
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1080px){
+.baseline {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+}
+}
+@media screen and (max-width: 1080px){
+.line {
+    
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333333;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+}
+}
+
