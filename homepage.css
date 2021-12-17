@@ -1,37 +1,23 @@
-.body-1{
-
-}
-.top{
-  width: 100%;
-position: absolute;
-padding-top: 0px;
-padding-bottom: 20px;
+.body {
+    color: #333333;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
 }
 
-.a-1{
-  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/top-hero.png);
-  background-size: cover;
-  background-position: center;
-  padding-top: 100px;
-  padding-bottom: 28px;
-}
-.topview{
-
- 
-}
-.img1{
-    display: block;
-    height: 20px;
-    width: auto;
+.Header {
+    width: 100%;
+    position: absolute;
 }
 
+@media screen and (max-width: 1080px){
+.Header {
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+}}
 
-
-.img1:hover{
-  opacity: 0.5;
-}
-
-.a-3{
+.HeaderContainer{
     display: flex;
     justify-content: space-between;
     margin: 0 36px 0 36px;
@@ -39,61 +25,87 @@ padding-bottom: 20px;
     position: relative;
 }
 
-@media screen and (max-width: 1080px){
-.a-3{
-  display: none;
-}
+.HeaderLogo__image--pc {
+    display: block;
+    height: 20px;
+    width: auto;
 }
 
-.a{
-      color: #333333;
+@media screen and (max-width: 767px){
+.HeaderLogo__image--pc {
+    display: none;
+}}
+
+.HeaderLogo__image--sp {
+    display: none;
+    height: 16px;
+    width: auto;
+}
+
+@media screen and (max-width: 767px){
+.HeaderLogo__image--sp {
+    display: block;
+}}
+
+.HeaderNav{
+  display: inline-flex;
+}
+
+@media screen and (max-width: 1080px){
+.HeaderNavHamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+}}
+
+@media screen and (max-width: 1080px){
+.HeaderNavHamburger__line:first-child {
+    top: 0;
+}}
+
+@media screen and (max-width: 1080px){
+.HeaderNavHamburger__line {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333333;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+}}
+
+@media screen and (max-width: 1080px){
+.HeaderNavHamburger__line:last-child {
+    top: 100%;
+}}
+
+.HeaderNavList {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.HeaderNavListItem {
+    margin-right: 45px;
+}
+
+.HeaderNavListItem__link {
+    display: block;
     text-decoration: none;
 }
 
+@media screen and (max-width: 1080px){
+.HeaderNavListItem__link {
+   display: none; 
+}}
 
-
-.a-2{
-     align-items: center;
-    display: flex;
-    justify-content: space-between;
-  
-}
-
-.a-2top{
- margin-right: 45px;
- list-style: none;
- 
-}
-
-
-.top_text{
-  text-align: center;
-  display:block;
-  color: #333333;
-  text-decoration: none;
-}
-
-
-  
-
-
-
-.top_text>span:last-child{
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  
-}
-
-.top_text>span{
-  display: block;
-  text-align: center;
-}
-
-
- 
-.counseling{
-align-items: center;
-    background-color: orange;
+.HeaderNavListItem__button {
+   align-items: center;
+    background-color: #F79214;
     border: none;
     border-radius: 38px;
     color: #fff;
@@ -104,75 +116,247 @@ align-items: center;
     justify-content: center;
     text-decoration: none;
     text-align: center;
-    width: 170px;
-    font-size: 12px;
-    height: 40px;
-  
- 
- 
-}
-.counseling:hover{
-  opacity: 0.5;
-}
-.p27{
-  color: gray;
-  width: 450px;
-  display: block;
-  font-size: 10px;
-  
-}
-
-
-
-
-
-.counseling3:hover{
-  opacity: 0.5;
-}
-
-@media screen and (max-width:767px){
-.header-1{
- background-position: right top;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-}
-
-@media screen and (max-width: 767px){
-.div12 {
-    max-width: none;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-}
-
-@media screen and (max-width:767px){
-  .div12{
-    margin-left: auto;
-  }
-}
-
-@media screen and (max-width: 1080px){
-.baseline {
-    cursor: pointer;
-    display: block;
-    position: relative;
-    width: 30px;
-    height: 21px;
-    z-index: 100;
-}
-}
-@media screen and (max-width: 1080px){
-.line {
-    
-    display: block;
     width: 100%;
-    height: 3px;
-    background-color: #333333;
-    transform: translate(0, -50%);
-    border-radius: 10px;
-    transition: top 0.2s, transform 0.2s, opacity 0.3s;
+    padding: 0 20px;
+    height: 40px;
 }
+
+@media screen and (min-width: 768px){
+.HeaderNavListItem__button {
+    transition: opacity 0.2s;
+}}
+
+.HeaderNavListItem__link>span:first-child {
+    font-family: 'Lato', sans-serif;
 }
+
+.HeaderNavListItem__link>span {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+.HeaderNavListItem__link>span:last-child {
+    font-size: 10px;
+}
+
+.FirstView {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg);
+    background-size: cover;
+    background-position: center ;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+section {
+    display: block;
+}
+
+.FirstView__main-image--sp {
+    display: none;
+}
+
+.FirstView__main-image {
+  width: 100%;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.FirstView__container {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.FirstViewContent {
+    margin-bottom: 70px;
+    width: fit-content;
+}
+
+.FirstViewContent__title {
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.FirstViewContent__images {
+    margin-bottom: 25px;
+}
+
+.FirstViewContent__images {
+    margin-bottom: 25px;
+}
+
+.FirstViewContent__buttons {
+    display: flex;
+}
+
+@media screen and (min-width: 768px){
+.FirstViewContent__buttons a {
+    transition: opacity 0.2s;
+}}
+
+.FirstViewContent__buttons a:first-of-type {
+    margin-right: 15px;
+    width: 306px;
+    color: #fff;
+    background-color: #F79214;
+}
+
+.FirstViewContent__buttons a {
+    align-items: center;
+    
+    border: none;
+    border-radius: 38px;
+    
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    height: 64px;
+}
+
+.FirstViewContent__buttons a:last-of-type {
+    background-color: white;
+    color: black;
+    width: 176px;
+}
+
+.FirstViewCaption a {
+    color: #A2A2A4;
+}
+
+
+.FirstViewCaption {
+    color: gray;
+    font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.AboutWrapper {
+    background-color: #F79214;
+    padding: 45px 0;
+}
+
+.About {
+    color: white;
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.About__title h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+
+.About__title h2>span {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.About__title br {
+    display: none;
+}
+
+.About__title p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.About__button {
+    width: 250px;
+    
+}
+
+.About__button a {
+    align-items: center;
+    border: none;
+    border-radius: 38px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: #F79214 !important;
+    background-color: #fff;
+        margin-top: 40px;
+}
+
+div{
+  display: block;
+}
+
+@media screen and (max-width: 1080px){
+.HeaderNavList {
+    overflow-y: scroll;
+    
+}}
+
+@media screen and (max-width: 1080px){
+.HeaderNavList jsc-hamburger-list {
+  
+}}
+
+@media screen and (max-width: 1080px){
+.HeaderNavListItem {
+  display: none;
+}}
+  
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+main{
+  display: block;
+}
+
+*, *::before, *::after {
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 
