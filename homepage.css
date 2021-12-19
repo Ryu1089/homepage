@@ -141,13 +141,22 @@
     font-size: 10px;
 }
 
-.FirstView {
-    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg);
+.FirstView{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
     background-size: cover;
-    background-position: center ;
+    background-position: center;
     padding-top: 100px;
     padding-bottom: 28px;
 }
+
+
+
+@media screen and (max-width: 767px){
+.FirstView {
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 35px;
+}}
 
 section {
     display: block;
@@ -156,6 +165,13 @@ section {
 .FirstView__main-image--sp {
     display: none;
 }
+
+@media screen and (max-width: 767px){
+.FirstView__main-image--sp {
+    display: block;
+}}
+
+
 
 .FirstView__main-image {
   width: 100%;
@@ -174,6 +190,18 @@ img {
     margin-right: auto;
     position: relative;
 }
+
+@media screen and (max-width: 767px){
+.FirstView__container {
+    margin-top: -45vw;
+}}
+
+@media screen and (max-width: 767px){
+.FirstView__container {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}}
 
 .FirstViewContent {
     margin-bottom: 70px;
@@ -194,9 +222,6 @@ img {
     margin-bottom: 25px;
 }
 
-.FirstViewContent__images {
-    margin-bottom: 25px;
-}
 
 .FirstViewContent__buttons {
     display: flex;
@@ -343,14 +368,6 @@ div{
   display: none;
 }}
   
-img {
-    border: 0;
-    vertical-align: middle;
-}
-
-main{
-  display: block;
-}
 
 *, *::before, *::after {
     word-break: break-all;
@@ -358,5 +375,24 @@ main{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px){
+.FirstViewContent__images img {
+    width: 27.5%;
+}}
+
+
+
+
 
 
