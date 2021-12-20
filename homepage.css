@@ -17,6 +17,12 @@
     z-index: 10;
 }}
 
+@media screen and (max-width: 767px){
+.HeaderContainer {
+    max-width: 100%;
+    margin: 0 20px;
+}}
+
 .HeaderContainer{
     display: flex;
     justify-content: space-between;
@@ -171,11 +177,6 @@ section {
     display: block;
 }}
 
-
-
-.FirstView__main-image {
-  width: 100%;
-}
 
 img {
     border: 0;
@@ -355,7 +356,19 @@ div{
 @media screen and (max-width: 1080px){
 .HeaderNavList {
     overflow-y: scroll;
-    
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    transition: transform 0.5s;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+
 }}
 
 @media screen and (max-width: 1080px){
@@ -391,6 +404,109 @@ h2 {
     width: 27.5%;
 }}
 
+@media screen and (min-width: 768px){
+.HeaderNavListItem {
+    transition: opacity 0.2s;
+}}
+
+@media screen and (max-width: 1080px){
+.HeaderNavListItem__link {
+    padding: 20px 0;
+}}
+
+@media screen and (max-width: 767px){
+.HeaderNavList {
+    top: 52px;
+}}
+
+@media screen and (max-width: 767px){
+.Header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}}
+
+@media screen and (max-width: 1080px){
+.HeaderNavListItem__link>span:first-child {
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #fff;
+}}
+
+@media screen and (max-width: 1080px){
+.HeaderNavListItem__link>span:last-child {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #F79214;
+    letter-spacing: 2px;
+}}
+
+FirstView__main-image {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+.FirstViewContent {
+    margin-bottom: 20px;
+    width: 100%;
+}}
+
+@media screen and (max-width: 767px){
+.FirstViewContent__title {
+    font-size: 25px;
+    line-height: 36px;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    margin-right: calc(((100vw - 100%) / 2) * -1);
+}}
+
+@media screen and (max-width: 767px){
+.FirstViewContent__images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+}}
+
+.FirstViewContent__images img:nth-of-type(2) {
+    width: 40%;
+}
+
+
+.FirstView__main-image {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+.AboutWrapper {
+    padding: 30px 0;
+}}
+
+@media screen and (max-width: 767px){
+.About {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}}
+
+@media screen and (max-width: 1024px){
+.About {
+    flex-direction: column;
+}}
+
+@media screen and (max-width: 767px){
+.About__title {
+    margin-bottom: 40px;
+}}
+
+@media screen and (max-width: 767px){
+.About__title h2 {
+    font-size: 30px !important;
+    text-align: center;
+}}
+
+@media screen and (max-width: 767px){
+.About__title h2>span {
+    font-size: 33px;
+}}
 
 
 
